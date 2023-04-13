@@ -7,9 +7,9 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 
 
-id: this.should.too
-canonical: http://example.com/fhir/example
-url: http://example.com/fhir/example
+id: fhir.dependent.ig
+canonical: https://openhie.github.io/fhir.dependent.ig
+url: https://openhie.github.io/fhir.dependent.ig
 name: ExampleIG
 title: "HL7 FHIR Implementation Guide: Example IG Release 1 - US Realm | STU1"
 description: Example IG exercises many of the fields in a SUSHI configuration.
@@ -61,7 +61,7 @@ jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001 "World"
 # use cases, the value can be an object with keys for `uri` and `version`.
 dependencies:
 #  hl7.fhir.us.core: 3.1.0
-  this.should.work: current
+  fhir.dependency.ig: current
 
 
 
